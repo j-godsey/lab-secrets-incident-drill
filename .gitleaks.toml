@@ -1,2 +1,7 @@
 [extend]
 useDefault = true
+
+[[allowlists]]
+description = "Allow the intentional service response fixture"
+targetRules = ["generic-api-key"]
+paths = ['''^tests/fixtures/service-response\.json$''']
